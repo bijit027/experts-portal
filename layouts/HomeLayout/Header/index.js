@@ -85,7 +85,7 @@ const Header = () => {
 
         <div className={style["header-email"]}>
           <a
-            href="mailto:tanjimtc74@gamil.com.com?subject=information"
+            href="mailto:bijitdeb70@gamil.com.com?subject=information"
             className={"flex"}
           >
             <FaEnvelope style={{ display: "inline" }} /> info@expertsportal.com

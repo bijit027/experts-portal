@@ -64,19 +64,6 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className={style["footer-service-section"]}>
-        {/* <p className={"text-red-600 uppercase text-xl font-bold"}>Warning</p> */}
-        <img src="/images/footer/mujib_logo.jpg" alt="" className={"w-full "} />
-        <div className={"mt-2"}>
-          <p className="text-white text-justify text-sm">
-            The government of Bangladesh has announced the commemoration of
-            2020–2021 as the Mujib Year on the occasion of the centennial birth
-            anniversary of the founding leader of the country, Sheikh Mujibur
-            Rahman. This year will be celebrated from March 17, 2020 to March
-            26, 2021.
-          </p>
-        </div>
-      </div>
 
       <div className={style["footer-legal-section"]}>
         <p>Legal</p>
@@ -100,32 +87,32 @@ const Footer = () => {
           <AiOutlineCopyright
             className={style["footer-copyrights-section-icon"]}
           />
-          Experts Portal. All rights reserved 2021
+          Experts Portal. All rights reserved 2022
         </p>
 
         <div className={style["footer-social-icons-container"]}>
           <FaFacebookF
             onClick={() =>
-              w.open("https://www.facebook.com/tanjim.chowdhurymac/", "__blank")
+              w.open("https://www.facebook.com/Afzal.Sohag007/", "__blank")
             }
             className={`${style["footer-social-icon"]} cursor-pointer `}
           />
           <FaTwitter
             onClick={() =>
-              w.open("https://www.facebook.com/tanjim.chowdhurymac/", "__blank")
+              w.open("https://www.facebook.com/Afzal.Sohag007/", "__blank")
             }
             className={`${style["footer-social-icon"]} cursor-pointer `}
           />
           <FaInstagram
             onClick={() =>
-              w.open("https://www.facebook.com/tanjim.chowdhurymac/", "__blank")
+              w.open("https://www.facebook.com/Afzal.Sohag007/", "__blank")
             }
             className={`${style["footer-social-icon"]} cursor-pointer `}
           />
           <FaLinkedinIn
             onClick={() =>
               w.open(
-                "https://www.linkedin.com/in/its-tanjim-chowdhury/",
+                "https://www.linkedin.com/in/Afzal.Sohag007/",
                 "__blank"
               )
             }

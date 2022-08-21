@@ -1,8 +1,8 @@
 import emailjs from "emailjs-com";
 
-const SERVICE_ID = "service_odbkym9";
-const USER_ID = "user_K19m2SewmOT4LsddOQuY7";
-const TEMPLATE_ID = "template_ysiffbg";
+const SERVICE_ID = "service_hcts1xe";
+const USER_ID = "DEyU2H4MQgtInYENH";
+const TEMPLATE_ID = "template_qcxteaq";
 
 const SendEmail = (data) => {
   emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, data, USER_ID).then(

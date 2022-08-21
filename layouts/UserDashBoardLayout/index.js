@@ -59,14 +59,14 @@ const UserDashboardLayout = ({ children }) => {
                   </a>
                 </Link>
               </li>
-              <li className=" rounded-md text-base font-medium text-gray-500 hover:text-white  hover:bg-indigo-600 mt-4">
+              {/* <li className=" rounded-md text-base font-medium text-gray-500 hover:text-white  hover:bg-indigo-600 mt-4">
                 <Link href="/user-dashboard/settings" passHref={true}>
                   <a className="w-full h-full flex p-3 ">
                     <AiFillSetting className="w-6 h-6 mr-3" />
                     <span>Settings</span>
                   </a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="py-12">
